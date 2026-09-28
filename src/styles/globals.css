@@ -45,6 +45,18 @@
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
   }
+  @keyframes logo-float {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-3px) rotate(0.5deg); }
+  }
+  @keyframes logo-pulse {
+    0%, 100% { opacity: 0.6; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.2); }
+  }
+  @keyframes sparkle-twinkle {
+    0%, 100% { opacity: 0.4; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.4); }
+  }
 }
 
 @custom-variant dark (&:where(.dark, .dark *));
@@ -91,4 +103,23 @@
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+@layer utilities {
+  .animate-logo-float {
+    animation: logo-float 4s ease-in-out infinite;
+  }
+  .animate-logo-pulse {
+    animation: logo-pulse 2s ease-in-out infinite;
+  }
+  .animate-sparkle {
+    animation: sparkle-twinkle 1.5s ease-in-out infinite;
+  }
+  .animation-delay-100 { animation-delay: 100ms; }
+  .animation-delay-200 { animation-delay: 200ms; }
+  .animation-delay-300 { animation-delay: 300ms; }
+  .animation-delay-400 { animation-delay: 400ms; }
+  .animation-delay-500 { animation-delay: 500ms; }
+  .animation-delay-700 { animation-delay: 700ms; }
+  .animation-delay-1000 { animation-delay: 1000ms; }
 }

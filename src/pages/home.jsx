@@ -53,16 +53,16 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/30" />
         </div>
         <div className="relative mx-auto max-w-[1440px] px-6 md:px-12 lg:px-16 py-32">
-          <motion.div {...fadeInUp} className="max-w-2xl">
-            <Badge variant="secondary" className="mb-6">Est. 2000</Badge>
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-heading leading-[1.1] tracking-tight">
+          <motion.div {...fadeInUp} className="max-w-3xl text-center mx-auto">
+            <Badge variant="secondary" className="mb-6 mx-auto">Est. 2000</Badge>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-heading leading-[1.1] tracking-tight">
               Building Tomorrow&apos;s
               <span className="block text-primary">Communities</span>
             </h1>
-            <p className="mt-6 text-lg md:text-xl text-body leading-relaxed max-w-lg">
+            <p className="mt-6 text-base md:text-lg text-body leading-relaxed max-w-xl mx-auto">
               A world-class real estate development company creating exceptional spaces that redefine urban living across Africa and the Middle East.
             </p>
-            <div className="mt-10 flex flex-wrap gap-4">
+            <div className="mt-10 flex flex-wrap justify-center gap-4">
               <Button size="lg" asChild>
                 <Link to="/projects">
                   Explore Our Projects

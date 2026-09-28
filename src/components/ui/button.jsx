@@ -6,7 +6,7 @@ const variants = {
   default:
     "bg-primary text-white hover:bg-primary-hover shadow-sm",
   secondary:
-    "bg-white text-heading border border-border hover:bg-muted-surface",
+    "bg-white text-heading border border-border hover:bg-muted-surface dark:text-primary dark:hover:text-primary",
   ghost:
     "text-body hover:text-heading hover:bg-muted-surface",
   danger:

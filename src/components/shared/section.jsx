@@ -7,7 +7,7 @@ export function Section({ children, className, id, dark = false, ...props }) {
     <section
       id={id}
       className={cn(
-        "py-24 md:py-32",
+        "py-16 md:py-24",
         dark && "bg-secondary-background",
         className
       )}

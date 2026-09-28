@@ -136,7 +136,7 @@ export default function Investors() {
                   <ul className="space-y-3">
                     {pillar.items.map((item) => (
                       <li key={item} className="flex items-start gap-2 text-sm text-body">
-                        <CheckCircle size={16} className="mt-0.5 text-success shrink-0" />
+                        {/* <CheckCircle size={16} className="mt-0.5 text-success shrink-0" /> */}
                         {item}
                       </li>
                     ))}
