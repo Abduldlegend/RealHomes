@@ -11,7 +11,7 @@ The final product should feel like a premium corporate brand comparable to:
 - DAMAC
 - Julius Berger
 - Cappa & D'Alberto
-- RCC Nigeria
+- RCC Nigeriaaii
 - Turner Construction
 - Brookfield Properties
 - Hines
